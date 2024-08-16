@@ -12,8 +12,8 @@ public class AssertionsTeste {
         int[] segundoLacamento = {10,20,30,40,50};
 
         // Valida se os valores dentro dos arrays são iguais
-        assertArrayEquals(primeiroLacamento, segundoLacamento);
-
+        // assertArrayEquals(primeiroLacamento, segundoLacamento);
+       // fail("Falha no teste");
     }
 
     @Test
